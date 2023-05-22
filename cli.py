@@ -23,7 +23,7 @@ solucionari = {
 }
 
 f = Figlet(font='slant')
-print(colored.red(f.renderText('Selecat cli')))
+print(colored.red(f.renderText('Selecat CLI')))
 
 
 assignatura_u = questionary.select(
@@ -36,7 +36,7 @@ mes_u = questionary.select(
     choices=["Juny", "Setembre"],
 ).ask()
 
-any_u = questionary.text("Quin any?").ask()
+any_u = questionary.text("Quin any (2000 - 2022)?").ask()
 
 solucionari_u = questionary.confirm("Vols el solucionari?").ask()
 

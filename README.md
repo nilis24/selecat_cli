@@ -22,7 +22,7 @@ $ .\env\Scripts\activate
 
 ### Install requirements.txt
 
-After that, you have to install the packages that there are on the `requirements.txt`. This is made by running this command:
+After that, you have to install the packages that are on the `requirements.txt` file. This is made by running this command:
 
 ```sh
 $ pip install -r requirements.txt
@@ -30,4 +30,4 @@ $ pip install -r requirements.txt
 
 ## How to use it
 
-Now you're ready to use this CLI!. Run the `cli.py` script and answer the questions that ask the CLI!
+Now you're ready to use this CLI! Run the `cli.py` script and answer the questions that the CLI asks!
